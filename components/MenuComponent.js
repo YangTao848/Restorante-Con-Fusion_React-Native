@@ -19,10 +19,8 @@ class Menu extends Component {
     };
 
     render() {
-
         const { navigate } = this.props.navigation;
         const renderMenuItem = ({ item, index }) => {
-
             return (
                 <Tile
                     key={index}
@@ -58,6 +56,5 @@ class Menu extends Component {
         }
     }
 }
-
 
 export default connect(mapStateToProps)(Menu);
