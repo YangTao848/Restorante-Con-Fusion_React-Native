@@ -154,6 +154,11 @@ export const addFavorite = (dishId) => ({
     payload: dishId
 });
 
+export const deleteFavorite = (dishId) => ({
+    type: ActionTypes.DELETE_FAVORITE,
+    payload: dishId
+});  
+
 export const postComment = (dishId, rating, author, comment) => (dispatch) => {
     const newComment = {
         dishId: dishId,
@@ -189,7 +194,6 @@ export const postComment = (dishId, rating, author, comment) => (dispatch) => {
         }, 2000))
         .catch(error => { console.log('post Comment', error.message); alert('Your Comment could not be posted\nError: ' + error.message); });
 };
-
 
 export const addComment = (comment) => ({
     type: ActionTypes.ADD_COMMENT,
