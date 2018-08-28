@@ -9,6 +9,14 @@ class Contact extends Component {
         super(props);
     }
 
+    sendMail() {
+        MailComposer.composeAsync({
+            recipients: ['confusion@food.net'],
+            subject: 'Enquiry',
+            body: 'To whom it may concern:'
+        })
+    }
+
     render() {
         return (
             <Animatable.View animation="fadeInDown" duration={2000} delay={1000}>
@@ -21,6 +29,12 @@ class Contact extends Component {
                     <Text>Fax: +852 8765 4321</Text>
                     <Text>Email:confusion@food.net</Text>
                 </Card>
+                <Button
+                    title="Send Email"
+                    buttonStyle={{ backgroundColor: "#512DA8" }}
+                    icon={<Icon name='envelope-o' type='font-awesome' color='white' />}
+                    onPress={this.sendMail}
+                />
             </Animatable.View>
         );
     }
