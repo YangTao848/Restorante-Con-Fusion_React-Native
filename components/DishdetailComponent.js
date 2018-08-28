@@ -206,6 +206,8 @@ class Dishdetail extends Component {
                             containerStyle={{ marginTop: 20 }}
                             title="CANCEL"
                         />
+
+                        
                     </View>
                 </Modal>
 
