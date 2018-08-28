@@ -91,7 +91,6 @@ class Home extends Component {
             outputRange: [1200, 600, 0, -600, -1200]
         })
 
-
         return (
             <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
                 <Animated.View style={{ width: '100%', transform: [{ translateX: xpos1 }] }}>
