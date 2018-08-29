@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
+//app.json contains all the meta-data required to build a stanalone app. Refer to (https://docs.expo.io/versions/v27.0.0/distribution/building-standalone-apps).
+
 ## Table of Contents
 
 * [Updating to New Releases](#updating-to-new-releases)
