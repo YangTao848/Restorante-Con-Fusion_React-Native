@@ -54,7 +54,7 @@ class LoginTab extends Component {
 
     render() {
         return (
-            <View style={styles.container}>
+            <ScrollView style={styles.container}>
                 <Input
                     placeholder="Username"
                     leftIcon={{ type: 'font-awesome', name: 'user-o' }}
@@ -110,7 +110,7 @@ class LoginTab extends Component {
                         }}
                     />
                 </View>
-            </View>
+            </ScrollView>
         );
     }
 
@@ -274,10 +274,6 @@ class RegisterTab extends Component {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        justifyContent: 'center',
-        margin: 20,
-    },
     imageContainer: {
         flex: 1,
         alignItems: 'center',
