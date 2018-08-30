@@ -5,6 +5,16 @@
     "icon": "./icon.png",
     "version": "1.0.0",
     "slug": "confusion",
+    "splash": {
+      "image": "./icon.png",
+      "backgroundColor": "#7796FF"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#512DA8"
+    },
+    "assetBundlePatterns": [
+      "/components/images/*"
+    ],
     "ios": {
       "bundleIdentifier": "net.food.confusion.confusion"
     },
