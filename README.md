@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
-To run the app:
-install json-server globally by executing command "npm install -g json-server" in cmd.
-->Clone or Download the repository.
-->Cd to json-server in cmd and run the json server by executing command "json-server .\db.json --w --d 1900 --p 3001 --H [IP Address of the Machine]"
-->Go to shared/baseUrl.js and enter the IP Address of the machine.
-->Run "npm install" to install the node_modules.
-->Run npm start to run the app on virtual emulator or Expo app.
+## To run the app:
+* install json-server globally by executing command "npm install -g json-server" in cmd.
+* Clone or Download the repository.
+* Cd to json-server in cmd and run the json server by executing command "json-server .\db.json --w --d 1900 --p 3001 --H [IP Address of the Machine]"
+* Go to shared/baseUrl.js and enter the IP Address of the machine.
+* Run "npm install" to install the node_modules.
+* Run npm start to run the app on virtual emulator or Expo app.
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
